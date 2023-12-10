@@ -92,6 +92,16 @@ body {
 .titulo {
   font-size: 33px;
 }
+/* ESTRELLAS PARA VALORAR */
+
+.nota {
+  display: flex;
+  width: 150px;
+}
+
+.estrella {
+  font-size: 25px;
+}
 
 .precio {
   display: flex;
