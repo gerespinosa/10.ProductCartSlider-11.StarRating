@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Cart Slider | 100 Days Of JS</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- parte del producto -->
+        <div class="producto">
+            <div class="modal">
+                <img src="/img/azul1.jpg" alt="modal" id="modal" class="modal-img">
+
+            </div>
+
+            <div class="galeria">
+                <img src="/img/azul1.jpg">
+                <img src="/img/azul2.jpg">
+                <img src="/img/azul3.jpg">
+                <img src="/img/azul4.jpg">
+            </div>
+        </div>
+
+        <!-- parte de la descripción -->
+        <div class="descripcion">
+            <h3 class="titulo">Game Boy Color</h3>
+            <div class="nota"></div>
+
+            <div class="precio">
+                <h4 class="precio-actual">39,99&euro;</h4>
+                <h4 class="precio-antiguo">50,00&euro;</h4>
+            </div>
+
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis quo debitis, dolore
+                dignissimos tempora nam hic maiores! Nobis libero id quam optio, veritatis quia iusto officia maiores
+                reprehenderit quod quis.</p>
+
+            <div class="color">
+                <p class="color-texto">Color</p>
+                <select name="color" id="color-select">
+                    <option value="azul">Azul</option>
+                    <option value="rojo">Rojo</option>
+                    <option value="verde">Verde</option>
+                </select>
+            </div>
+
+            <div class="input-qty">
+                <p>Cantidad</p>
+                <div class="boton">
+                    <button id="menos">-</button>
+                    <input type="text" value="1" id="input-qty">
+                    <button id="mas">+</button>
+                </div>
+            </div>
+
+            <button id="anadir-btn" class="anadir-btn">Añadir al carrito</button>
+        </div>
+
+
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

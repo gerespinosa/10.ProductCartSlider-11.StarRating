@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  position: relative;
+  background-color: rgb(44, 44, 96);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 1100px;
+  height: 450px;
+  padding: 10px;
+  position: relative;
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+/* PRODUCTO */
+.producto {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.modal {
+  width: 100%;
+  height: 80%;
+  position: relative;
+}
+
+.modal-img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.modal-btn-1,
+.modal-btn-2 {
+  position: absolute;
+  top: 40%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  padding: 5px 15px;
+}
+
+.modal-btn-1 {
+  left: 5%;
+}
+
+.modal-btn-2 {
+  left: 42%;
+}
+
+.galeria {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.galeria img {
+  width: 24%;
+  border: 1px solid black;
+}
+
+/* DESCRIPCION */
+.descripcion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.titulo {
+  font-size: 33px;
+}
+
+.precio {
+  display: flex;
+  gap: 2rem;
+}
+
+.precio-antiguo {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.color {
+  display: flex;
+  gap: 2rem;
+}
+
+.input-qty {
+  display: flex;
+  gap: 2rem;
+}
+
+.input-qty input {
+  width: 40px;
+}
+
+.input-qty button {
+  width: 30px;
+  margin: 0 -5px;
+  background-color: black;
+  color: white;
+}
+
+.anadir-btn {
+  width: fit-content;
+  padding: 4px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+/* CANTIDAD */
+.boton input {
+  text-align: center;
+}
+
+/* BOTON AÑADIR */
+.anadir-btn {
+  cursor: pointer;
+}
